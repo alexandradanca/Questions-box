@@ -34,16 +34,32 @@ btns_clicked.forEach((btn)=>{
         
         if(event.contains('btn-q-1')){
             q1 = 1;
+            q1 = isDoubleClick(q1,btn_clicked);
         } else if (event.contains('btn-q-2')){
             q2 = 1;
+            q2 = isDoubleClick(q1,btn_clicked);
         } else if (event.contains('btn-q-3')){
             q3 = 1;
+            q3 = isDoubleClick(q1,btn_clicked);
         }
 
         let total = q1+q2+q3;
         
         if(total===3){
             height.classList.add('h-auto');
+        } else{
+            height.classList.remove('h-auto');
         }
     })
 })
+
+
+function isDoubleClick(q, btn_q){
+    if(q === 1){
+        if(!btn_q.currentTarget.classList.contains('minus')){
+            q = 0;
+        }
+    }
+
+    return q;
+}
