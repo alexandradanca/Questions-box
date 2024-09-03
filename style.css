@@ -73,7 +73,7 @@ hr{
 }
 
 h1{
-    padding: 1vh 0;
+    padding: 2vh 0;
     font-family: var(--h1-font);
     font-size: var(--h1-font-size);
     text-transform: capitalize;
