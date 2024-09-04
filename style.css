@@ -43,6 +43,8 @@ body{
     margin: 3vh 0;
     padding: 2vh;
     background-color: var(--bgr-container);
+    box-shadow:  6px -6px 12px #b8cdc5,
+             -6px 6px 12px #d0e7df;
 }
 
 .q-header {
