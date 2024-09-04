@@ -85,6 +85,7 @@ h1{
 h2{
     font-size: var(--h2-font-size);
     color: var(--h2-color);
+    padding-right: 2vh;
 }
 
 p{
