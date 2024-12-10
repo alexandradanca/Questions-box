@@ -2,7 +2,7 @@
  :question: <a href="https://alexandradanca.github.io/Questions-box/" target="_blank">Q&A section</a>
 </h2>
 
-<p>This is a Q&A section for a web page. </br>It was created during front-end learning journey</p>
+<p>An organized and informative section to address frequently asked questions for improved user support. </br>It was created during front-end learning journey</p>
 
 ## Built With
 - HTML
